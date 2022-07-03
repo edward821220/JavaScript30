@@ -2,6 +2,8 @@
 為了讓自己更熟練 JavaScript，決定參加這個挑戰
 (index-FINISHED.html 是範例，index-START 和 app.js 是我的練習)
 
+Code Pen Demo[https://codepen.io/collection/OLgyBO]
+
 以下是作者說明：
 
 ![](https://javascript30.com/images/JS3-social-share.png)

@@ -12,8 +12,9 @@ function playSound(e) {
   // 增加動畫的 class
   key.classList.add("playing");
 }
+// 由於 JS 的執行機制 ， 用 setTimeout 會有時間誤差問題，所以在動畫處理上最好不要用
 function removeTransition(e) {
-  // 忽略除了 transform 屬性變更之外的 transition 動畫事件
+  // 忽略除了 transform 屬性變更之外的 transition 動畫事件 ( 用 propertyName 來判斷是哪個 css 屬性)
   if (e.propertyName !== "transform") return;
   // 這裡的 this 是 key.addEventListener 的 key (觸發事件呼叫函式的地方)
   // console.log(this);
