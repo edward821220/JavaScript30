@@ -24,7 +24,7 @@ function removeTransition(e) {
 // 監聽瀏覽器視窗中按鍵盤按鍵的事件
 const keys = document.querySelectorAll(".key");
 keys.forEach((key) =>
-  // transition 動畫結束時觸發的事件
+  // transitionend 是 transition 動畫結束時觸發的事件
   key.addEventListener("transitionend", removeTransition)
 );
 window.addEventListener("keydown", playSound);
