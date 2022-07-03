@@ -1,6 +1,6 @@
 ﻿JavaScript30 是要用原生的 JavaScript 打造 30 個小作品的挑戰
 為了讓自己更熟練 JavaScript，決定參加這個挑戰
-(index-FINISHED.html 是範例，index-START.html 是我的練習)
+(index-FINISHED.html 是範例，index-START 和 app.js 是我的練習)
 
 以下是作者說明：
 
